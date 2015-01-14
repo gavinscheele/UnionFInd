@@ -2,7 +2,6 @@
 //
 
 #include "stdafx.h"
-#include "UnionFind.h"
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -10,9 +9,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	int n;
 	int op, x, y;
 	//freopen("uf-medium.in", "r", stdin);
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	UnionFind *uf = new UnionFind(n);
-	while (3 == scanf("%d %d %d", &op, &x, &y))
+	while (3 == scanf_s("%d %d %d", &op, &x, &y))
 	{
 		//printf("%d %d %d\n", op, x, y);
 		if (op == -1 && x == -1 && y == -1) break;

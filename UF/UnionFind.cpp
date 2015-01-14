@@ -1,4 +1,4 @@
-#include "UnionFind.h"
+#include "stdafx.h"
 
 UnionFind::UnionFind(int size){
 	this->roots[size];
