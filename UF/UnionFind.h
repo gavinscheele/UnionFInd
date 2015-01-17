@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 
@@ -19,7 +20,8 @@ public:
 	// Connected(x, y)?
 	bool connected(int x, int y);
 
+	friend ostream& operator<<(ostream& os, const UnionFind& uf);
 private:
-	int roots[];
+	vector<int> roots;
 
 };
