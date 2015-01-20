@@ -16,7 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
-    <Text Include="..\..\..\..\Downloads\uf-small.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -33,10 +32,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UF.cpp">
+    <ClCompile Include="UnionFind.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UnionFind.cpp">
+    <ClCompile Include="UF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
